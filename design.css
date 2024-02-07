@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+#color-display {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+#generate-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #0000005b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#generate-btn:hover {
+  background-color: #f39e6d;
+}
